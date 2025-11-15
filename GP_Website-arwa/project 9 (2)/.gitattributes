@@ -1,0 +1,17 @@
+# Ensure consistent line endings
+* text=auto
+
+# Python files always use LF
+*.py text eol=lf
+
+# Jupyter notebooks (JSON) use LF
+*.ipynb text eol=lf
+
+# Mark model files as binary (no diffs)
+*.h5 binary
+*.pkl binary
+*.joblib binary
+
+# CSVs and JSONs treated as text
+*.csv text
+*.json text
